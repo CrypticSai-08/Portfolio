@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "../assets/Hero.png";
-import FaLongArrowAltRight from "react-icons/fa";
 import { FaArrowRightFromBracket } from "react-icons/fa6";
 
 const Home = () => {
@@ -25,7 +24,7 @@ const Home = () => {
             <button className="text-white w-fix px-7 py-3 flex items-center rounded-md ml-20 bg-gradient-to-r from-gray-800 to-gray-200 cursor-pointer hover:scale-105 duration-200">
               <a
                 href="https://drive.google.com/file/d/14izRrHeIZtlc1WlI3NKGFYrwJaHJ2PyQ/view?usp=sharing"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >Resume
               </a>
               <span className="px-3">

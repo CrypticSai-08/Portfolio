@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   return (
@@ -14,7 +13,7 @@ const SocialLinks = () => {
         >
           <a
             href="https://www.linkedin.com/in/saianand08/ "
-            target="_blank"
+            target="_blank" rel="noreferrer"
             className="flex justify-between items-center w-full text-white "
           >
             Linkdin
@@ -29,7 +28,7 @@ const SocialLinks = () => {
         >
           <a
             href="https://github.com/CrypticSai-08"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             className="flex justify-between items-center w-full text-white "
           >
             Github
@@ -44,7 +43,7 @@ const SocialLinks = () => {
         >
           <a
             href="https://leetcode.com/CrypticSai/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             className="flex justify-between items-center w-full text-white "
           >
             Leetcode
@@ -59,7 +58,7 @@ const SocialLinks = () => {
         >
           <a
             href="mailto:hellosaianand@gmail.com"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             className="flex justify-between items-center w-full text-white "
           >
             Mail
