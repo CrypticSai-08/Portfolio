@@ -85,7 +85,7 @@ function About() {
                 </div>
                 <div>
                   <span className="text-gray-900 font-bold"> CGPA :- </span>{" "}
-                  7.92/10{" "}
+                  8.01/10{" "}
                 </div>
               </div>
             </div>
